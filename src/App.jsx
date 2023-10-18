@@ -14,6 +14,11 @@ export default function App() {
       <div>
         <Header />
         <Welcome />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <GetStarted />
         <Footer />
       </div>

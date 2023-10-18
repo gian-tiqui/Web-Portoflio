@@ -8,6 +8,11 @@
   opacity: 0.8;
 }
 
+.transparent-background-card {
+  background-color: rgba(10, 10, 10, 0.5);
+  opacity: 0.9;
+}
+
 .white-hr {
   border: 1px solid #fff;
   margin: 20px 0;
@@ -47,5 +52,5 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
-  height: 100vh;
+  height: 70vh;
 }
