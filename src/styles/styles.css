@@ -1,0 +1,51 @@
+.particles-container {
+  position: relative;
+  z-index: -1;
+}
+
+.transparent-background {
+  background-color: rgba(10, 10, 10, 0.5);
+  opacity: 0.8;
+}
+
+.white-hr {
+  border: 1px solid #fff;
+  margin: 20px 0;
+}
+
+.header-buttons-border {
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 25% 0% 25% 0%;
+}
+
+.custom-font {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.orbitron {
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.welcome-border {
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 10% 10% 0% 0%;
+}
+
+.rounded-img {
+  border-radius: 30%;
+}
+
+.get-started-bg {
+  background-image: url("../images/GetStartedBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  height: 100vh;
+}
