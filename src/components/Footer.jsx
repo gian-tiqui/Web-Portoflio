@@ -2,11 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-center bg-black p-3">
-      <hr className="mx-5 white-hr" />
-      <div>
-        <p className="text-white fs-6">© 2022</p>
+    <footer className="text-center bg-dark p-5 mt-5">
+      <div className="text-white fs-6">
+        <p>Managed by</p>
+        <h1>Michael Gian Tiqui</h1>
       </div>
+
+      <hr className="mx-5 bg-white" />
+
+      <hr className="white-hr" />
+      <p className="text-white">© 2023 Gian. All rights reserved.</p>
     </footer>
   );
 };

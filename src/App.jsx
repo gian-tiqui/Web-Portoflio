@@ -1,7 +1,8 @@
-import Particle from "./components/Particle";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js";
 import "./styles/styles.css";
+import React from "react";
+import Particle from "./components/Particle";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Welcome from "./components/Welcome";
@@ -13,11 +14,12 @@ export default function App() {
       <Particle />
       <div>
         <Header />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <Welcome />
-        <br />
-        <br />
-        <br />
-        <br />
         <br />
         <GetStarted />
         <Footer />

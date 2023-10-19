@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="transparent-background">
+    <header className="transparent-background fixed-top">
       <div className="d-flex justify-content-between p-3 px-auto container">
         <p className="orbitron text-white fs-1 mt-3 text-center text-md-start">
           Gian

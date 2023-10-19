@@ -54,3 +54,12 @@
   padding: 20px;
   height: 70vh;
 }
+
+.know-me-bg {
+  background-image: url("../images/know-me-img.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  height: 70vh;
+}

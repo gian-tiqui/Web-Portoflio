@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
-import Particles from "react-particles";
 import { loadFull } from "tsparticles";
+import Particles from "react-particles";
 import option from "../particles/Particle.js";
+import React from "react";
 
 export default function Particle() {
   const [randomNum, setRandomNum] = useState(1);
@@ -25,7 +26,7 @@ export default function Particle() {
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
-      options={option[randomNum]}
+      options={option[2]}
       className="particles-container"
     />
   );
